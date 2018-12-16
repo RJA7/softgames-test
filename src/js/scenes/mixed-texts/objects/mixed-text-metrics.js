@@ -54,7 +54,6 @@ export default class MixedTextMetrics {
 
   static createImage(frame, cache) {
     const texture = PIXI.Texture.fromFrame(frame);
-    cache[frame] = cache[frame] || [];
     cache[frame] = texture;
 
     return texture;

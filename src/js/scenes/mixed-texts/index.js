@@ -1,4 +1,3 @@
-import Signal from 'signals';
 import MixedText from './objects/mixed-text';
 import Scene from '../scene';
 
@@ -6,7 +5,7 @@ export default class MixedTexts extends Scene {
   constructor() {
     super();
 
-    const mixedText = new MixedText('asd $image(button.png) 32w\nasd $image(button.png) 32w');
+    const mixedText = new MixedText('');
     mixedText.anchor.set(0.5);
     mixedText.imageOffset.x = 4;
     mixedText.imageOffset.y = 4;
